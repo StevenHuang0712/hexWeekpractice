@@ -9,7 +9,7 @@ body {
 }
 
 img {
-    display: block;
+    vertical-align: middle;
 }
 
 a {
@@ -59,7 +59,7 @@ h3 {
     border-bottom: 3px solid #AE0000;
 }
 
-ul {
+.container ul {
     margin-right: 50%;
     margin-bottom: 40px;
 }
@@ -83,16 +83,17 @@ ul {
 .text-color {
     font-size: 20px;
     color: #949494;
+    font-style: italic
 }
 
 .footer {
     margin-top: 160px;
+    padding: 64px 0;
     background-color: black;
     text-align: center;
 }
 
-.footer img {
+.footer li {
     display: inline;
-    margin: 64px 40px 64px 0;
-    vertical-align: middle;
+    margin-right: 40px;
 }
