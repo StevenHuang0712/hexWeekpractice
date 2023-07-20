@@ -92,13 +92,12 @@ a {
   width: 636px;
   margin: 72px 24px 72px 0;
 }
-
-.banner-text {
+.banner .banner-text {
   width: 636px;
   font-size: 64px;
   color: white;
 }
-.banner-text a {
+.banner .banner-text a {
   display: block;
   margin-left: auto;
 }
@@ -164,16 +163,14 @@ a {
   color: white;
   padding: 96px 0;
 }
-
-.contact-text {
+.contact .contact-text {
   align-items: center;
   margin-right: 113px;
 }
-
-.social img {
+.contact .social img {
   width: 162px;
 }
-.social img:hover {
+.contact .social img:hover {
   filter: drop-shadow(0px 0px 16px rgba(144, 148, 255, 0.9));
 }
 

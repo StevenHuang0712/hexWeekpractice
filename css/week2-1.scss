@@ -91,20 +91,21 @@ a {
 
 .banner {
     align-items: center;
+
     .img-people {  
         height: auto;
         width: 636px;
         margin: 72px 24px 72px 0;
     }
-}
 
-.banner-text {
-    width: 636px;
-    font-size: 64px;
-    color: white;
-    a {
-        display: block;
-        margin-left: auto;
+    .banner-text {
+        width: 636px;
+        font-size: 64px;
+        color: white;
+        a {
+            display: block;
+            margin-left: auto;
+        }
     }
 }
 
@@ -168,17 +169,17 @@ a {
 .contact {
     color: white;
     padding: 96px 0;
-}
 
-.contact-text {
-    align-items: center;
-    margin-right: 113px;
-}
+    .contact-text {
+        align-items: center;
+        margin-right: 113px;
+    }
 
-.social img {
-    width: 162px;
-    &:hover {
-        filter: drop-shadow(0px 0px 16px rgba(144, 148, 255, 0.9));
+    .social img {
+        width: 162px;
+        &:hover {
+            filter: drop-shadow(0px 0px 16px rgba(144, 148, 255, 0.9));
+        }
     }
 }
 
@@ -218,4 +219,3 @@ a {
         color: white;
     }
 }
-
