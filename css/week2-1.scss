@@ -86,6 +86,7 @@ a {
     padding-top: 40px;
     li {
         max-width: 306px;
+        color: $font-white;
     }
 }
 
@@ -131,7 +132,6 @@ a {
 }
 
 .intro-text {
-    width: 540px;
     color: white;
     p {
         margin-bottom: 32px;

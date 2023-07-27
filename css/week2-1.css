@@ -82,6 +82,7 @@ a {
 }
 .nav li {
   max-width: 306px;
+  color: #D1D1D1;
 }
 
 .banner {
@@ -124,7 +125,6 @@ a {
 }
 
 .intro-text {
-  width: 540px;
   color: white;
 }
 .intro-text p {
