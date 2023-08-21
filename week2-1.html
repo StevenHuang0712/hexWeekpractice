@@ -13,6 +13,7 @@
       href="https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
   <body>
     <header class="header">
@@ -27,7 +28,7 @@
       </ul>
       <section class="container flex banner">
         <img src="./images/week2/people.png" class="img-people" alt="people" />
-        <div class="banner-text">
+        <div class="banner-text" data-aos="fade-left">
           <p>Hi<br />I’m a front-end developer</p>
           <h1>William</h1>
           <a href="#" class="btn btn-contact"
@@ -41,7 +42,7 @@
     <main>
       <div class="bg py-40">
         <section class="container flex space-between">
-          <div class="intro-text mr-6">
+          <div class="intro-text mr-6" data-aos="fade-right">
             <h2 class="mb-9">Introduction</h2>
             <p>
               Hi, I'm William Lee, a Front-End Developer with a passion for
@@ -67,12 +68,14 @@
             <li class="mr-6">
               <img src="./images/week2/photographer.png" alt="photographer" />
             </li>
-            <li><img src="./images/week2/people-2.png" alt="people" /></li>
+            <li>
+              <img src="./images/week2/people-2.png" alt="people" />
+            </li>
           </ul>
         </section>
       </div>
       <section class="container flex justify-between">
-        <ol class="about-left flex">
+        <ol class="about-left flex" data-aos="fade-up-right">
           <li>
             <p class="mb-1">01</p>
             <h3 class="mb-1">Attention to Detail</h3>
@@ -94,7 +97,7 @@
             <p>Collaborates and shares ideas.</p>
           </li>
         </ol>
-        <div class="about-text my-40">
+        <div class="about-text my-40" data-aos="fade-left">
           <h2 class="mb-9">About Me</h2>
           <p>
             With over 5 years of experience, I'm proficient in HTML, CSS,
@@ -106,7 +109,7 @@
       </section>
       <div class="bg-linear">
         <section class="container flex justify-between contact">
-          <div class="contact-text flex">
+          <div class="contact-text flex" data-aos="fade-right">
             <h2 class="mr-4">CONTACT ME</h2>
             <img
               src="./images/week2/trending_flat_black_24dp 1.png"
@@ -114,16 +117,16 @@
             />
           </div>
           <div class="social flex">
-            <a href="#"
+            <a href="#" data-aos="flip-left"
               ><img src="./images/week2/discord.png" class="mr-5" alt="discord"
             /></a>
-            <a href="#"
+            <a href="#" data-aos="flip-up"
               ><img
                 src="./images/week2/instagram.png"
                 class="mr-5"
                 alt="instagram"
             /></a>
-            <a href="#"
+            <a href="#" data-aos="flip-right"
               ><img src="./images/week2/message.png" alt="message"
             /></a>
           </div>
@@ -136,6 +139,7 @@
             src="./images/week2/Rectangle 10.png"
             class="mr-6"
             alt="Rectangle10"
+            data-aos="zoom-in"
           />
           <ul class="myProjects-right flex">
             <li class="myProjects-main flex">
@@ -143,8 +147,9 @@
                 src="./images/week2/Rectangle 15.png"
                 class="mr-6"
                 alt="Rectangle15"
+                data-aos="zoom-in"
               />
-              <div class="myProjects-text">
+              <div class="myProjects-text" data-aos="zoom-in">
                 <p>
                   I've worked on a variety of websites, including e-commerce
                   sites, blogs, and landing pages. I take pride in creating
@@ -158,10 +163,18 @@
               </div>
             </li>
             <li class="mr-6">
-              <img src="./images/week2/Rectangle 14.png" alt="Rectangle14" />
+              <img
+                src="./images/week2/Rectangle 14.png"
+                alt="Rectangle14"
+                data-aos="zoom-in"
+              />
             </li>
             <li>
-              <img src="./images/week2/Rectangle 29.png" alt="Rectangle29" />
+              <img
+                src="./images/week2/Rectangle 29.png"
+                alt="Rectangle29"
+                data-aos="zoom-in"
+              />
             </li>
           </ul>
         </div>
@@ -170,5 +183,11 @@
     <footer class="footer">
       <p>all rights reserved @hexschool2023</p>
     </footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 3000,
+      });
+    </script>
   </body>
 </html>
